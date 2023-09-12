@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-holder-1 > h1{
+    font-size: 76px;
+    color:white;
+    line-height: 5rem;
+    font-weight:500;
+    padding-top:100px;
+}
+.text-holder-1{
+    padding:25px 150px 10px 20px;
+    font-size: 16px;
+    color: white;
+}
+.header-c{
+    margin-top:40px;
+    padding: 5px;
+    background-color: white;
+    border-radius:10px;
+    width:86%;
+    padding:10px;
+    padding-bottom: 15px;
+    padding-top:0;
+}
+.headerUs {
+  color: black !important;
+  text-decoration: none;
+  display: flex; /* Use flexbox to align items vertically */
+  align-items: center; /* Center items vertically */
+  padding: 15px 4px 7px 4px;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative; /* Add relative positioning to create space for the arrow */
+}
+.headerUs:hover {
+  color: blue !important;
+}
+
+.header-b-arrow {
+  font-size: 40px;
+  transition: transform 0.3s ease-in-out;
+  position: absolute; 
+  right: 35px; 
+  transform: translateX(0); /* Initial position */
+  color:blue;
+}
+
+.headerUs:hover .header-b-arrow {
+  transform: translateX(20px); /* Move the arrow to the right on hover */
+}
+
+.image-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  /* Header.css */
+.header-container {
+    position: relative;
+  }
+  .bg-image {
+    width: 100%;
+    height: 88%;
+  }
+  /*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+  .text-holder-1 {
+    padding: 10px 50px 10px 10px; 
+  }
+  .title-holder-1 > h1{
+      font-size: 60px;
+  }
+  .bg-image {
+    width: 100%;
+    height: 63%;
+  }
+
+}
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+  .bg-image {
+    width: 100%;
+    height: 75%;
+  }
+  .title-holder-1 > h1{
+    font-size: 46px;
+    color:white;
+    line-height: 4rem;
+    font-weight:500;
+    padding-top:0px;
+}
+.title-holder-1{
+    margin-top:140px;
+}
+.text-holder-1{
+    padding:9px;
+    font-size: 12px;
+    color: white;
+}
+
+}

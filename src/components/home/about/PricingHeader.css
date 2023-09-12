@@ -1,0 +1,7 @@
+.Pricing-bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, .35), hsla(0, 0%, 0%, 0.35)), url("https://i.ibb.co/1GtJF28/pricing.webp");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+   
+}

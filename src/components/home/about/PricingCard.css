@@ -1,0 +1,46 @@
+.pricing-plan > h5{
+color: #162cca;
+font-size: 18px;
+}
+.pricing-plan > h1{
+color: #0e0e0e;
+font-size: 40px;
+line-height: 1.1em;
+font-weight: 400;
+}
+.pricing-plan > p{
+    color: #717171;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.pricing-plan > h6{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    }
+    .pricing-btn{
+        padding: 10px 90px 10px 90px;
+        font-size: 18px;
+        font-weight: 600;
+        transition: all .3s;
+    }
+    .link-tag{
+        text-decoration:none;
+    }
+    .pricing-popular-block{
+    background-color: #162cca;
+    border-radius: 6px;
+    padding: 10px 8px 0px 8px;
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    right: 20px;
+    }
+    .pricing-popular-block >p{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em
+    }

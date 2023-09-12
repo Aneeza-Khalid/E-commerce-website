@@ -1,0 +1,63 @@
+.about-us-title{
+    padding-top:220px;
+    padding-bottom: 120px;
+}
+.about-us-title > h1{
+    margin-bottom: 0;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #fff;
+}
+.about-us-title > h5{
+    max-width: 580px;
+    
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5em;
+}
+.abt-bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, .35), hsla(0, 0%, 0%, 0.35)), url("https://i.ibb.co/9tDkstY/64638dc328fbe7caae6b743b-drone-image.webp");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+    .about-us-title > h1{
+        margin-bottom: 0;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 1.1em;
+        color: #fff;
+    }
+    .about-us-title{
+        padding-top:300px;
+        padding-bottom: 100px;
+    }
+    
+}
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .about-us-title > h1{
+        margin-bottom: 0;
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 1.1em;
+        color: #fff;
+    }
+    .about-us-title{
+        padding-top:300px;
+        padding-bottom: 50px;
+    }
+  
+  
+}

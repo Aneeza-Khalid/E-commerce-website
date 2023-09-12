@@ -1,0 +1,112 @@
+.footer-background{
+    background-color: #408;
+}
+.footer-text{
+color:white;
+}
+
+.footer-text > h1{
+font-size:70px;
+font-weight: 500;
+line-height: 1.1em;
+}
+.footer-text > p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.footer-btn{
+    background-color: white;
+    color: #0e0e0e;
+    font-weight: 600;
+    transition: all .3s;
+    font-size:18px;
+}
+.footer-btn:hover{
+    background-color: #408;
+    color: white;
+    border: 1px solid white;
+}
+.footer-line{
+    border-width: 1px;
+    color:rgba(255, 255, 255, .3);
+    border-style: solid;
+}
+.social-media{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.social-media-link{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+.social-media-link:hover{
+    color: rgba(255, 255, 255, .5);
+}
+.social-media-pages{
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.social-media-pages-link{
+    color: white;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+.social-media-pages-link:hover{
+    color: rgba(255, 255, 255, .5);
+}
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+    .social-media-link{
+        font-size: 14px;
+    }
+    .social-media{
+        font-size: 13px;
+    }.social-media-pages{
+        color: rgba(255, 255, 255, .5);
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+    .social-media-pages-link{
+        font-size: 12px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .social-media-pages-link{
+        margin-top: 0px;
+    }
+    .licensing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media{
+        margin-bottom: 0px;
+        margin-top: 10px;
+        margin-left:15px;
+    }
+    }
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+/*Protfolio*/
+.protfolio > h5{
+    color: #162cca;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.protfolio > h3{
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.protfolio-detail > p{
+    color: #162cca;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.protfolio-link { 
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: color .3s
+}
+.protfolio-detail > p:nth-child(3){
+    color: #717171;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    width:86%;
+}
+.car-image{
+    width:100%;
+}
+.car-image > img{
+    width:100%;
+}
+.drone-film{
+    width:100%;
+    object-fit: cover;
+}
+.drone-film > img{
+    width:100%;
+}
+.protfolios-image{
+    width:100%;
+    object-fit: cover;
+}
+.protfolios-image >img{
+    width:100%;
+    
+}
+.protfolio-btn-link{
+    text-decoration: none;
+}
+.protfolio-btn{
+    font-size: 18px;
+    font-weight: 600px;
+    background-color:#162cca;
+    color: white;
+}
+.protfolio-btn:hover{
+    color:#162cca;
+    background-color: white;
+    border:1px solid #162cca;
+}
+.protfolio-pages-more{
+    width: 90%;
+}
+.protfolio-pages{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #0e0e0e;
+    transition: color .3s;
+    text-decoration:none ;
+}
+.protfolio-pages:hover{
+    color:#162cca;
+}
+.protfolio-arrow{
+    color:#162cca;
+    transition: transform 0.3s ease-in-out; 
+    font-size:40px;
+}
+.protfolio-pages:hover .protfolio-arrow{
+    transform: translateX(13px);
+}

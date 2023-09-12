@@ -1,0 +1,54 @@
+.team-card{
+    background-color:#f9f9f9;
+    padding-bottom: 30px !important;
+    
+}
+.our-team >h5{
+    color: #162cca;
+    font-size:18px;
+    font-weight: 500;
+}
+.our-team >h1{
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.image-card{
+    width:100%;
+}
+.image-card > img{
+    width:100%;
+}
+.team-name > h2{
+    color: #0e0e0e;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.team-name > p{
+    color: #717171;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em
+}
+
+
+
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+   
+}
+
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .our-team >h1{
+        font-size: 34px;
+        
+    }
+}
+

@@ -1,0 +1,26 @@
+.faq-bg-image{
+    background-color:#162cca;
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+}
+.faq-page > h1{
+    padding: 0 300px 0 300px;
+}
+
+
+
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+    .faq-page > h1{
+        padding: 0;
+    }
+}
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .faq-page > h1{
+        padding: 0;
+    }
+}

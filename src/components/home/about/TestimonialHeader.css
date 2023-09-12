@@ -1,0 +1,21 @@
+
+.testimonial > h1{
+    padding: 0 350px 0 350px;
+}
+
+
+
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+    .testimonial > h1{
+        padding: 0;
+    }
+}
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .testimonial > h1{
+        padding: 0;
+    }
+}

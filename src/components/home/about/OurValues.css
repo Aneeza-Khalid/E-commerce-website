@@ -1,0 +1,42 @@
+.our-values{
+    background-color: #f2f7ff;
+}
+.our-values-left > h5{
+    color:#162cca;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.our-values-left > h1{
+    color:#0e0e0e;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    
+}
+.our-values-card > h5{
+    color:#162cca;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.our-values-card > h4{
+    color:#0e0e0e;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.our-values-card > p{
+    font-size: 16px;
+    color: #717171;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.card-number-line{
+    width: 90px;
+    height: 2px;
+    background-color: #162cca;
+    position: relative;
+    bottom:19px;
+    left:45px;
+}

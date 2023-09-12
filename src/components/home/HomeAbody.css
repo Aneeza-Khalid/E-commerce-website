@@ -1,0 +1,357 @@
+.custom-gap{
+    margin-top: 180px;
+}
+.section-line{
+    width: 100%;
+    height: 3px;
+    background-color: rgba(113, 113, 113, .3);
+    margin-top:120px;
+}
+.section-line-1{
+    width: 100%;
+    height: 3px;
+    background-color: rgba(113, 113, 113, .3);
+    margin-top:50px;
+    border-left: 1px solid rgba(113, 113, 113, .3);
+}
+.section-line-1-background{
+    background-color: #f2f7ff
+}
+.section-line-2{
+    width:99%;
+    height: 3px;
+    border-left: 1px solid rgba(113, 113, 113, .3);
+    background-color: rgba(113, 113, 113, .3);
+    position:absolute;
+    z-index: -1;
+    top:400;
+}
+
+.vertical-line{
+    border-left: 1px solid rgba(113, 113, 113, .3);
+      height: 252vh; 
+      position: absolute;
+      left: 50%; 
+      margin: 0px;
+}
+
+/*cards-portion*/
+.blue-card{
+    background-color: blue;
+    color: white;
+    transition: transform 0.3s;
+}
+.blue-card:hover{
+    background-color: rgb(249, 249, 249);
+    color: Black;
+    transform: translateY(-20px);
+}
+.blue-card :hover > p{
+    color: rgb(113, 113, 113);
+    line-height: 1.5em;
+}
+.blue-card:hover h5:first-child {
+    color: blue;
+  }
+.white-card{
+    background-color: rgb(249, 249, 249);
+    color: Black;
+    transition: transform 0.3s;
+}
+.white-card h5:first-child {
+    color: blue;
+  }
+.white-card:hover h5:first-child {
+    color: white;
+  }
+  .white-card > p{
+    color: rgb(113, 113, 113);
+    line-height: 1.5em;
+}
+  .white-card:hover > p{
+    color: white;
+}
+.white-card:hover{
+    background-color: blue;
+    color: white;
+    transform: translateY(-20px);
+}
+.image{
+    width:100%;
+    object-fit: cover;
+}
+.image > img{
+    object-fit: cover;
+    max-width:100%;
+    height: 75vh;
+}
+
+/*Services portion*/
+
+.services-portion{
+    background: blue;
+}
+.services-portion-main > h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: white;
+}
+.services-portion-number> h2{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: white;
+}
+.services-portion-number> h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: white;
+}
+
+.white-btn{
+    font-size: 18px;
+    background-color: white;
+    color:black;
+    font-weight: 600px;
+}
+.white-btn:hover{
+    background-color: blue;
+    border:1px solid white;
+    color:white;
+}
+.download-drone{
+    width:100%;
+    height: 100%;
+}
+.download-drone > img{
+    width:100%;
+    height: 100%;
+}
+
+/*Teach and Innovation*/
+.tech-innovation > h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    margin-top: 50px;
+    color:black;
+}
+.tech-innovation > p:first-of-type {
+    color: #162cca;
+    margin-top:25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.tech-innovation > p:nth-child(3) {
+    color: #717171;
+    margin-top:25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.tech-innovation > Button{
+    font-size: 18px;
+    font-weight: 600px;
+    background-color:#162cca;
+    color: white;
+}
+.tech-innovation > Button:hover{
+    color:#162cca;
+    background-color: white;
+    border: 1px solid #162cca;
+}
+.tech-innovation-image{
+    width: 100%;
+}
+.tech-innovation-image > img{
+    width: 80%;
+    height: 560px;
+}
+
+
+/*New Technology*/
+.technology-image{
+    max-width:100%;
+    object-fit: cover;
+}
+.technology-image > img{
+    height: 75vh;
+    width:100%;
+    object-fit: cover;
+}
+.technology > h3{
+    font-size:18px;
+    line-height: 1.5em;
+    color: #162cca;
+    font-weight: 400;
+}
+.technology > h2{
+    font-size:40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #0e0e0e;
+}
+.technology > p{
+    color: #717171;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    width: 65%;
+}
+.aboutUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #5161dd;
+    transition: color .3s;
+    text-decoration:none ;
+}
+.aboutUs:hover{
+    color: #162cca;
+}
+.arrow-tech{
+    margin-left: 35px;
+    color:#162cca ;
+    transition: transform 0.3s ease-in-out; 
+    font-size:40px;
+}
+
+.aboutUs:hover .arrow-tech{
+    color:#162cca;
+    transform: translateX(10px); 
+}
+/*services sub-portion*/
+.service-card{
+    background-color: #162cca;
+}
+.service-card-image-link{
+    float:right;
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out; 
+}
+.service-card-image-link:hover{
+    transform: translateX(3px);
+}
+.service-card-text > h3{
+    width: 60%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.service-card-text > p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    width:95%;
+}
+.service-btn{
+    color: #0e0e0e;
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    line-height: 1.1em;
+    background-color: #fff;
+    font-weight:500;
+}
+.service-btn:hover{
+    background-color: #162cca;
+    border:1px solid white;
+}
+.service-image-text{
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.service-image-text > h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color:white;
+}
+.text-pad{
+    width: 80%;
+}
+.service-image{
+    background-image:url("https://i.ibb.co/25G2mxg/remote-drone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.service-image-0{
+    background-image:url("https://i.ibb.co/d6gWmKK/driftime-media-Aw-Pz-FTre4-Zo-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+      .small-screen-image-gap{
+        margin-top:20px;
+      }
+      .tech-innovation > p:nth-child(3) {
+        padding:0 !important;
+    }
+    .tech-innovation-image > img{
+        height:350px;
+        width:100%;
+        padding:0 !important;
+        margin: 0;
+    }
+    .custom-gap{
+        margin-top:250px;
+    }
+    .vertical-line{
+        display:none;
+    }
+  }
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+      .small-screen-gap{
+        margin-top:20px;
+      }
+      .image > img{
+        object-fit: cover;
+        max-width:100%;
+        height: 50vh;
+    }
+    .small-screen-image-gap{
+        margin-top:20px;
+      }
+      .tech-innovation > h2{
+        font-size: 30px;
+    }
+    .tech-innovation > p:first-of-type {
+        padding: 0 !important;
+    }
+    .tech-innovation > p:nth-child(3) {
+        padding:0 !important;
+    }
+    .tech-innovation-image > img{
+        height:350px;
+        width:100%;
+        padding:0 !important;
+        margin: 0;
+    }
+    .Technology{
+        padding-left: 10px!important;
+    }
+    .vertical-line{
+        display:none;
+    }
+    .download-drone > img{
+        width:100%;
+        height: 140%;
+    }
+  }

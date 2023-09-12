@@ -1,0 +1,97 @@
+
+.custom-navbar{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid  rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link-pages{
+  color:white !important;
+}
+#home-dropdown, #all-pages-dropdown, #about-dropdown, #Home-dropdown {
+  color: white;}
+.dropdown-mega-menu{
+    width: 500px;
+}    
+.cart{
+      color:white;
+    }
+
+.btn-white-blue{
+background-color: white;
+color:#162cca;
+border: none;
+border-radius:6px ;
+}
+/* Nav.css */
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-toggle::after {
+    display: none !important; /* Hide the default dropdown arrow */
+  }
+  
+  
+
+
+@media (max-width: 990px) {
+    /* Apply these styles when the screen width is 768px or less (medium screens) */
+    .btn-white-blue{
+        background-color: #162cca;
+        color:white;
+        border: none;
+        border-radius:6px;
+        margin: 0px 500px 0px 40px !important;
+        padding:10px;
+        }
+    .btn-white-blue:hover{
+        background-color: #162cca;
+        color:white;
+        border: none;
+        border-radius:6px ;
+    }
+    .dropdown-toggle::after {
+        display: inline-block !important; /* Hide the default dropdown arrow */
+      }
+      .Navbar-collapse{
+      background-color: white;
+    }
+     #home-dropdown, #all-pages-dropdown, #about-dropdown, #Home-dropdown {
+      color: black;
+    }
+    .nav-link-pages{
+      color: black !important;
+    }
+    
+    
+  }
+  @media (max-width: 991px) { 
+    .dropdown-mega-menu .col-md-4 {
+      width: 100%; 
+    }
+  }
+  @media(max-width:576px){
+    .btn-white-blue{
+      background-color: #162cca;
+      color:white;
+      border: none;
+      border-radius:6px;
+      margin: 0px 180px 0px 10px !important;
+      padding:5px;}
+      .Navbar-collapse{
+        background-color: white;
+  
+      }
+      .nav-link-pages{
+        color:black;
+      }
+      #home-dropdown, #all-pages-dropdown, #about-dropdown, #Home-dropdown {
+        color: black;
+      }
+    }
+    
+
+    
+
+  
