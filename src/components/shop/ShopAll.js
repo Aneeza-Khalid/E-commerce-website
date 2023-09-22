@@ -11,7 +11,7 @@ export default function ShopAll(){
                 
                      <img className='hover-image' src="https://i.ibb.co/mb7pk0k/646c624c3b4156dfbf4754c1-drone-photo-medium-p-500.jpg" alt="drone-medium-p-500" border="0" />
 
-                <a href='/ShopDetailOne'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailOne'><button class="hover-button text-capitalize">detail</button></a>
                </div>
                <div className='product-detail mt-3'>
                 <a href='/ShopDetailOne' className='text-decoration-none'><h3 className='text-capitalize drone-name '>Drone ultra</h3></a>
@@ -22,7 +22,7 @@ export default function ShopAll(){
                 <Col lg={3} md={6} xs={12}> 
                 <div className="image-container">
                 <img className='hover-image' src="https://i.ibb.co/vddqKvb/2nd-drone.jpg" alt="2nd-drone" border="0" />
-                <a href='/ShopDetailTwo'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailTwo'><button class="hover-button text-capitalize">detail</button></a>
                </div>
                <div className='product-detail mt-3'>
                 <a href='/ShopDetailTwo' className='text-decoration-none'><h3 className='text-capitalize drone-name'>Drone ultra light</h3></a>
@@ -36,7 +36,7 @@ export default function ShopAll(){
                 
                 <img className='hover-image' src="https://i.ibb.co/GPs62vb/3rd.jpg" alt="3rd" border="0" />
                 
-                <a href='/ShopDetailThree'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailThree'><button class="hover-button text-capitalize">detail</button></a>
                </div>
                <div className='product-detail mt-3'>
                 <a href='/ShopDetailThree' className='text-decoration-none'><h3 className='text-capitalize drone-name '>Drone with reciever</h3></a>
@@ -48,7 +48,7 @@ export default function ShopAll(){
                 <Col lg={3} md={6} xs={12}>
                 <div className="image-container">
                 <img className='hover-image' src="https://i.ibb.co/NCwgR0N/4th.jpg" alt="4th" border="0" />
-                <a href='/ShopDetailFour'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailFour'><button class="hover-button text-capitalize">detail</button></a>
                </div>
                <div className='product-detail mt-3'>
                 <a href='/ShopDetailFour' className='text-decoration-none'><h3 className='text-capitalize drone-name '> standard Drone </h3></a>
@@ -62,7 +62,7 @@ export default function ShopAll(){
                 <Col lg={3} md={6} xs={12}>
                 <div className="image-container">
                 <img className='hover-image' src="https://i.ibb.co/5MTdNfM/5th.jpg" alt="5th" border="0" />
-                <a href='/ShopDetailFive'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailFive'><button class="hover-button text-capitalize">detail</button></a>
                </div>
 
                <div className='product-detail mt-3'>
@@ -75,7 +75,7 @@ export default function ShopAll(){
                 <Col lg={3} md={6} xs={12}>
                 <div className="image-container">
                 <img className='hover-image' src="https://i.ibb.co/GHwgMXp/6th.jpg" alt="6th" border="0" />
-                <a href='/ShopDetailSix'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailSix'><button class="hover-button text-capitalize">detail</button></a>
                </div>
                <div className='product-detail mt-3'>
                 <a href='/ShopDetailSix' className='text-decoration-none'><h3 className='text-capitalize drone-name '>Drone 4 pro plus</h3></a>
@@ -87,7 +87,7 @@ export default function ShopAll(){
                 <Col lg={3} md={6} xs={12}>
                 <div className="image-container">
                      <img className='hover-image' src="https://i.ibb.co/8dN7V58/7th.jpg" alt="7th" border="0" />
-                <a href='/ShopDetailSeven'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailSeven'><button class="hover-button text-capitalize">detail</button></a>
                </div>
                <div className='product-detail mt-3'>
                 <a href='/ShopDetailSeven' className='text-decoration-none'><h3 className='text-capitalize drone-name '>Drone transmitter system</h3></a>
@@ -99,7 +99,7 @@ export default function ShopAll(){
                 <Col lg={3} md={6} xs={12}>
                 <div className="image-container">
                 <img className='hover-image' src="https://i.ibb.co/SvPxs25/8th.jpg" alt="8th" border="0" />
-                <a href='/ShopDetailEight'><button class="hover-button text-capitalize">add to cart</button></a>
+                <a href='/ShopDetailEight'><button class="hover-button text-capitalize">detail</button></a>
                </div>
                <div className='product-detail mt-3'>
                 <a href='/ShopDetailEight' className='text-decoration-none'><h3 className='text-capitalize drone-name '>ultraportable 4k</h3></a>
