@@ -1,0 +1,14 @@
+.new-text{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+    color:#0e0e0e;
+}
+
+@media(min-width: 577px) and (max-width: 992px) {
+    .recent-btn{
+        margin-left: 50px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

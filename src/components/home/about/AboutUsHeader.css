@@ -1,5 +1,5 @@
 .about-us-title{
-    padding-top:220px;
+    padding-top:100px;
     padding-bottom: 120px;
 }
 .about-us-title > h1{
@@ -23,9 +23,6 @@
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
 }
 
 /*Media Quries for i pad*/

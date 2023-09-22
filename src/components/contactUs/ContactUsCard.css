@@ -1,0 +1,37 @@
+.contact-us{
+    background-color: #f9f9f9;
+}
+.contact-us > h5{
+    color:#162cca;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em
+}
+.contact-us > p{
+    color: #717171;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.contact-number-line{
+    width: 80px;
+    height: 2px;
+    background-color: #162cca;
+    position: relative;
+    bottom:19px;
+    left:100px;
+}
+.contact-learn{
+    color: #0e0e0e;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5em;
+    transition: color .3s;
+}
+.contact-learn:hover{
+    color:#162cca;
+}
+.contact-arrow{
+    color:#162cca;
+    font-size: 37px;
+}

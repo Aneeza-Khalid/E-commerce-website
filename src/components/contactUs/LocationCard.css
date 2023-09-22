@@ -1,0 +1,14 @@
+.contact-adress{
+    color: #717171;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    cursor:auto;
+}
+.location-card{
+    background-color: #f2f7ff;
+    padding: 30px 40px;
+}
+.location-gap{
+    margin-top:100px;
+}

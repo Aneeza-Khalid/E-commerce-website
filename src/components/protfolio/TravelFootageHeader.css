@@ -1,0 +1,43 @@
+.footage-image-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.footage-image-background> img{
+    width: 100%;
+    height:70%;
+    z-index: -1;
+    
+}
+.middle-footage-image{
+    width:100%;
+    height: 100%;
+}  
+.middle-footage-image >img{
+    width:100%;
+    height:70%;
+}  
+
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+    .middle-footage-image >img{
+        width:100%;
+        height:50%;
+    }  
+}
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .middle-footage-image >img{
+        width:100%;
+        height:50%;
+    }  
+   
+  
+}
+

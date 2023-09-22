@@ -1,41 +1,33 @@
 .custom-gap{
-    margin-top: 180px;
+    margin-top: 220px;
 }
-.section-line{
-    width: 100%;
-    height: 3px;
-    background-color: rgba(113, 113, 113, .3);
-    margin-top:120px;
+.custom-gap-1{
+    margin-top: 250px;
 }
-.section-line-1{
-    width: 100%;
-    height: 3px;
-    background-color: rgba(113, 113, 113, .3);
-    margin-top:50px;
-    border-left: 1px solid rgba(113, 113, 113, .3);
-}
-.section-line-1-background{
-    background-color: #f2f7ff
-}
-.section-line-2{
-    width:99%;
-    height: 3px;
-    border-left: 1px solid rgba(113, 113, 113, .3);
-    background-color: rgba(113, 113, 113, .3);
-    position:absolute;
-    z-index: -1;
-    top:400;
-}
-
-.vertical-line{
-    border-left: 1px solid rgba(113, 113, 113, .3);
-      height: 252vh; 
-      position: absolute;
-      left: 50%; 
-      margin: 0px;
-}
-
 /*cards-portion*/
+.card-line-1{
+    width: 80px;
+    height: 2px;
+    background-color:#fff;
+    position: relative;
+    bottom:19px;
+    left:50px;
+}
+.card-line{
+    width: 80px;
+    height: 2px;
+    background-color:#162cca;
+    position: relative;
+    bottom:19px;
+    left:50px;
+}
+.blue-card:hover .card-line-1{
+    background-color:#162cca;
+}
+.white-card:hover .card-line{
+    
+    background-color:#fff;
+}
 .blue-card{
     background-color: blue;
     color: white;
@@ -48,8 +40,27 @@
 }
 .blue-card :hover > p{
     color: rgb(113, 113, 113);
-    line-height: 1.5em;
 }
+.blue-card h5:first-child {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+  }
+.white-card >h5 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+  }
+  .blue-card>h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+  }
+  .white-card>h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
+  }
 .blue-card:hover h5:first-child {
     color: blue;
   }
@@ -60,6 +71,9 @@
 }
 .white-card h5:first-child {
     color: blue;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1em;
   }
 .white-card:hover h5:first-child {
     color: white;
@@ -67,6 +81,8 @@
   .white-card > p{
     color: rgb(113, 113, 113);
     line-height: 1.5em;
+    font-size: 16px;
+    font-weight: 400;
 }
   .white-card:hover > p{
     color: white;
@@ -129,8 +145,21 @@
     width:100%;
     height: 100%;
 }
+.border-line{
+    border-top: 2px solid rgba(113, 113, 113, .3);
+    border-bottom: 2px solid rgba(113, 113, 113, .3);
+}
+.border-line-1{
+    border-top: 2px solid rgba(113, 113, 113, .3);
+    border-bottom: 2px solid rgba(113, 113, 113, .3);
+    background-color: #f2f7ff;
+}
 
 /*Teach and Innovation*/
+
+.tech-innovation{
+    border-right: 2px solid rgba(113, 113, 113, .3);
+}
 .tech-innovation > h2{
     font-size: 40px;
     font-weight: 500;
@@ -164,10 +193,12 @@
 }
 .tech-innovation-image{
     width: 100%;
+    
 }
 .tech-innovation-image > img{
     width: 80%;
-    height: 560px;
+    height: 490px;
+    margin-top: -50px;
 }
 
 
@@ -176,6 +207,15 @@
     max-width:100%;
     object-fit: cover;
 }
+.vertical-line {
+    width: 2px; 
+    background-color: rgba(113, 113, 113, .3);
+    height: 1364px; 
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); /* Centered line using translation */
+  }
+  
 .technology-image > img{
     height: 75vh;
     width:100%;
@@ -302,7 +342,7 @@
         padding:0 !important;
     }
     .tech-innovation-image > img{
-        height:350px;
+        
         width:100%;
         padding:0 !important;
         margin: 0;
@@ -310,9 +350,21 @@
     .custom-gap{
         margin-top:250px;
     }
-    .vertical-line{
-        display:none;
+    .tech-innovation{
+        border-right: none;
     }
+    .vertical-line {
+       display:none;
+      }
+      .custom-gap-1{
+        margin-top: 150px;
+    }
+    .tech-innovation-image > img{
+        
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    
   }
 
 /*Media Quries for mobiles*/
@@ -347,11 +399,30 @@
     .Technology{
         padding-left: 10px!important;
     }
-    .vertical-line{
-        display:none;
+    .tech-innovation{
+        border-right: none;
     }
     .download-drone > img{
         width:100%;
         height: 140%;
     }
+    .vertical-line {
+        display:none;
+       }
+       .tech-innovation-image > img{
+        
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .services-portion-main > h1 {
+        font-size: 34px;
+       
+    }
+    .custom-gap-1{
+        margin-top: 150px;
+    }
   }
+  
+  
+ 
+  

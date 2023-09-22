@@ -29,7 +29,7 @@ export default function ExploreWolrd(){
                         <h6>
                         Take your storytelling to new heights with our immersive drone photography and videography services. And explore unseen angles and capture unique moments with our expert drone operators.
                         </h6>
-                        <a href='#abouts'><Button className='protfolio-btn py-2 px-4 mt-4 mb-4'> Learn More</Button></a>
+                        <a href='/Gallery'><Button className='protfolio-btn py-2 px-4 mt-4 mb-4'> Learn More</Button></a>
                     </div>
                 </Col>
             </Row>

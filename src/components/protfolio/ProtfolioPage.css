@@ -1,0 +1,78 @@
+.protfolio-below-gap{
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
+.wedding-image{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.wedding-image:hover{
+    opacity:0.7;
+}
+.wedding-image >img{
+    width: 100%;
+    height: 70%;
+}
+.car-photography{
+    width:100%;
+}
+.car-photography:hover{
+    opacity:0.7
+}
+.car-photography >img{
+    width:100%;
+}
+.drone-filmography{
+    width:100%;
+}
+.drone-filmography >img{
+    width:100%;
+}
+.camera-man{
+    width:100%;
+    height: 100%;
+}
+.camera-man >img{
+    width:100%;
+    height:80%;
+}
+.camera-man:hover{
+    opacity: 0.7;
+}
+.drone-filmography:hover{
+    opacity:0.7;
+    
+}
+
+
+
+@media(min-width: 577px) and (max-width: 992px) {
+    .car-photography{
+        width:100%;
+        height:100%;
+    }
+    .car-photography >img{
+        width:100%;
+        height:85%;
+    }
+    .drone-filmography{
+        width:100%;
+        height:100%;
+    }
+    .drone-filmography >img{
+        width:100%;
+        height:100%;
+    }
+   
+    .wedding-image >img{
+        width: 100%;
+        height: 90%;
+    }
+    .camera-man >img{
+        width:100%;
+        height:90%;
+    }
+    
+}
+

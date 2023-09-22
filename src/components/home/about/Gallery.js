@@ -21,13 +21,13 @@ export default function Gallery(){
       <Tab eventKey="home" title="All">
         <Row className=' about-gap'>
             <Col md={6} xs={12} className='mt-4'>
-                <a href='12'>
+                <a href='_blank'>
                     <div className='gallery-image'>
                 <img src="https://i.ibb.co/94CXnjB/plants.jpg" alt="plants" border="0" />
                 </div></a>
             </Col>
             <Col md={6} xs={12} className='mt-4'>
-                    <a href='123'><div className='gallery-image-1'>
+                    <a href='_blank'><div className='gallery-image-1'>
                     <img src="https://i.ibb.co/MGvdQXd/photo.webp" alt="camera" border="0" />
                     <img className='mt-5' src="https://i.ibb.co/nPPSXFF/upper-view.webp" alt="upper-view" border="0" />
                 </div>
@@ -36,14 +36,14 @@ export default function Gallery(){
             {/*second row*/}
             <Col md={6} xs={12} > 
                 
-                    <a href='123'><div className='gallery-image-1'>
+                    <a href='_blank'><div className='gallery-image-1'>
                     <img src="https://i.ibb.co/RHQy5vj/car-image.webp" alt="car" border="0"/>
                     <img className='mt-5' src="https://i.ibb.co/HXkWLHm/jeep-image.webp" alt="jeep" border="0" />
                 </div>
                     </a>
             </Col>
             <Col md={6} xs={12}>
-                <a href='12'>
+                <a href='_blank'>
                     <div className='gallery-image'>
                     <img src="https://i.ibb.co/NL3Pgtf/mountains.webp" alt="mountains" border="0" />
                 </div></a>
@@ -54,33 +54,32 @@ export default function Gallery(){
       <Tab eventKey="profile" title="Travel">
       <Row className='about-gap'>
             <Col md={6} xs={12} className='mt-4'>
-                <a href='12'>
+                <a href='_blank'>
                     <div className='gallery-image'>
                 <img src="https://i.ibb.co/94CXnjB/plants.jpg" alt="plants" border="0" />
                 </div></a>
             </Col>
             <Col md={6} xs={12} className='mt-4'>
-                    <a href='123'><div className='gallery-image-1'>
+                    <a href='_blank'><div className='gallery-image-1'>
                     <img src="https://i.ibb.co/MGvdQXd/photo.webp" alt="camera" border="0" />
                     <img className='mt-5' src="https://i.ibb.co/nPPSXFF/upper-view.webp" alt="upper-view" border="0" />
                 </div>
                     </a>
             </Col>
             </Row>
-      
       </Tab>
       <Tab eventKey="hello" title="Filmography">
-        <Row className='about-gap' >
+         <Row className='about-gap' >
         <Col md={6} xs={12} > 
                 
-                <a href='123'><div className='gallery-image-1'>
+                <a href='_blank'><div className='gallery-image-1'>
                 <img src="https://i.ibb.co/RHQy5vj/car-image.webp" alt="car" border="0"/>
                 <img className='mt-5' src="https://i.ibb.co/HXkWLHm/jeep-image.webp" alt="jeep" border="0" />
             </div>
                 </a>
         </Col>
         <Col md={6} xs={12}>
-            <a href='12'>
+            <a href='_blank'>
                 <div className='gallery-image'>
                 <img src="https://i.ibb.co/NL3Pgtf/mountains.webp" alt="mountains" border="0" />
             </div></a>
@@ -91,7 +90,6 @@ export default function Gallery(){
         </Container>
         <hr className='section-line-gallery'></hr>
         <LogosA />
-        <br/>
         <Footer className='about-gap' />
         </>
     )

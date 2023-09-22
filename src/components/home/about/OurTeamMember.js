@@ -1,5 +1,6 @@
 import './OurTeamMember.css';
 import  {Col, Row, Container } from 'react-bootstrap';
+import { BsInstagram, BsTwitter } from "react-icons/bs";
 
 export default function OurTeamMember(){
     return(
@@ -21,10 +22,10 @@ export default function OurTeamMember(){
                                 <p>Pilot</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>
@@ -42,10 +43,10 @@ export default function OurTeamMember(){
                                 <p>Photographer</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>
@@ -63,10 +64,10 @@ export default function OurTeamMember(){
                                 <p>Pilot</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>
@@ -84,10 +85,10 @@ export default function OurTeamMember(){
                                 <p className='text-capitalize'>Technical support</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>
@@ -105,10 +106,10 @@ export default function OurTeamMember(){
                                 <p>Pilot</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>
@@ -126,10 +127,10 @@ export default function OurTeamMember(){
                                 <p>Designer</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>

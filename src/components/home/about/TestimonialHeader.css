@@ -1,6 +1,13 @@
+.faq-bg-image{
+    padding-top: 5px;
+}
 
-.testimonial > h1{
-    padding: 0 350px 0 350px;
+.testimonial >h1{
+    padding: 120px 350px 120px 350px;
+    color:white;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 1.1em;
 }
 
 
@@ -8,7 +15,8 @@
 /*Media Quries for i pad*/
 @media(min-width: 577px) and (max-width: 992px) {
     .testimonial > h1{
-        padding: 0;
+        padding: 50px 150px 100px 150px !important;
+        font-size: 60px;
     }
 }
 
@@ -16,6 +24,7 @@
 
 @media(max-width:576px){
     .testimonial > h1{
-        padding: 0;
+        padding: 70px 30px 100px 30px !important;
+        font-size: 50px;
     }
 }

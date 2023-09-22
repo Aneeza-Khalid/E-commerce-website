@@ -3,7 +3,9 @@ import OurValues from './OurValues';
 import ExploreWolrd from './ExploreWorld';
 import AboutUsHeader from './AboutUsHeader';
 import Protfolio from "../Protfolio";
-import Footer from '../Footer'
+import Footer from '../Footer';
+
+
 export default function AboutUs(){
     return(
         <>

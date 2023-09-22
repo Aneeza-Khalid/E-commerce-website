@@ -1,0 +1,7 @@
+.shop-bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, .35), hsla(0, 0%, 0%, 0.35)), url("https://i.ibb.co/9tDkstY/64638dc328fbe7caae6b743b-drone-image.webp");
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding-top:10px;
+} 

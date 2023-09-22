@@ -94,7 +94,7 @@ export default function FaqPageQuestion() {
               ))}
             </div>
           </Col>
-          <Col lg={6} xs={12}>
+          <Col lg={6} xs={12} className='p-0'>
             <div className="container container-2">
               {faqData2.map((item, index) => (
                 <div key={index} className="faq-item">

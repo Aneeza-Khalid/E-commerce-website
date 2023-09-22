@@ -1,6 +1,20 @@
 .team-bg-image{
-    background-image: linear-gradient(rgba(0, 0, 0, .35), hsla(0, 0%, 0%, 0.35)), url("https://i.ibb.co/w7PSSQK/team-member.webp");
-    background-position: 0 0, 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, .35), hsla(0, 0%, 0%, 0.35)), url("https://i.ibb.co/vZMyv4x/team-member.webp" );
+    background-position: 0, 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
+    padding-top: 10px;
+} 
+
+.our-team-title > h5{
+    padding: 0px 100px 0px 0px;
+}
+
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .our-team-title > h5{
+        padding: 0px 0px 0px 0px;
+    }
 }

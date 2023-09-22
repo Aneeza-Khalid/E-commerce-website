@@ -26,6 +26,10 @@
     text-decoration: none;
     transition: color .3s
 }
+.protfolio-link :hover { 
+    color: #162cca ;
+   
+}
 .protfolio-detail > p:nth-child(3){
     color: #717171;
     margin-top: 0;
@@ -37,25 +41,42 @@
 }
 .car-image{
     width:100%;
+    height: 80%;
 }
-.car-image > img{
+.car-image >img{
     width:100%;
+    height: 60%;
+    
 }
 .drone-film{
     width:100%;
     object-fit: cover;
+    height: 100%;
+
 }
 .drone-film > img{
     width:100%;
+    height: 75%;
 }
 .protfolios-image{
     width:100%;
-    object-fit: cover;
+    object-fit: clip;
+    height: 100%;
 }
-.protfolios-image >img{
-    width:100%;
-    
-}
+.middle-part-image {
+    height: 100%; /*  fixed height to determine the middle part */
+    overflow: hidden; /* Clip the image */
+    position: relative;
+    width: 100%; /*for absolute positioning of the image */
+  }
+  
+  .middle-part-image >img {
+    width: 100%; 
+    position: absolute;
+    top: 80%; /* Vertically center the image */
+    transform: translateY(-75%); /* Adjust to center the image vertically */
+    left: 0; /* Position the image at the left of the container */
+  }
 .protfolio-btn-link{
     text-decoration: none;
 }
@@ -78,7 +99,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.1em;
     color: #0e0e0e;
@@ -96,3 +117,50 @@
 .protfolio-pages:hover .protfolio-arrow{
     transform: translateX(13px);
 }
+
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+    .car-image{
+       padding-top:40px;
+    }
+    .car-image > img{
+        width:100%;
+        height: 75%;
+        
+    }
+    .drone-film{
+      padding-top:40px;
+    
+    }
+    .drone-film > img{
+        width:100%;
+        height: 90%;
+    }
+}
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+    .middle-part-image {
+        height: auto; 
+        overflow: visible; 
+      }
+    
+      .middle-part-image > img {
+        width: 100%; /* Set image width to 100% for full width */
+        position: static; /* Removal of absolute positioning */
+        transform: none; /* Removal of vertical centering */
+        top: auto; /* Removal of vertical centering */
+      }
+      .drone-film >img{
+        width:100%;
+        height: 85%;
+    }
+    .car-image{
+        margin-bottom:0px;
+     }
+     
+}
+
+  
+  

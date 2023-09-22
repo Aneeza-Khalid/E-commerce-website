@@ -1,0 +1,26 @@
+.card-about-product > h2{
+    color: #0e0e0e;
+    font-size: 34px;
+    line-height: 1.1em;
+}
+.card-about-product >p{
+    color: #717171;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.card-about-product{
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+
+/*for mobile*/
+@media(max-width:576px){
+    .card-about-product > h2{
+        font-size: 28px;
+    }
+    .card-about-product{
+        padding:10px;
+    }
+    }

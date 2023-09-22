@@ -1,3 +1,16 @@
 *{
     font-family: 'Manrope', sans-serif;
 }
+.blue-btn{
+    color: #fff;
+    background-color: #162cca;
+    border: 1px solid #162cca;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all .3s;
+}
+.blue-btn:hover{
+    color: #162cca;
+    background-color: #fff;
+}

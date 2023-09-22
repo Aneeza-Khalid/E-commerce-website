@@ -1,0 +1,20 @@
+.wedding-image-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%; /* Adjust the height to control the visible portion */
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .wedding-image-background > img {
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    object-fit: cover;
+    object-position:center bottom; /* Adjust this line to control the visible portion */
+   
+  }
+  
+

@@ -1,0 +1,7 @@
+.protfolio-page-bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, .35), hsla(0, 0%, 0%, 0.35)), url("https://i.ibb.co/px6drqp/64661cfa8ff5824116d8f713-banner-image-large.webp" );
+    background-position: 0 0, 50%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding-top:5px;
+}

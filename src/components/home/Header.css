@@ -5,14 +5,17 @@
 }
 .title-holder > h1{
     font-size: 76px;
-    color:black;
+    color:white;
     line-height: 5rem;
     font-weight:500;
-    padding-top:195px;
+    padding-top:225px;
 }
 .text-holder{
     padding:215px 150px 10px 0px;
     font-size: 16px;
+    color: white;
+    font-weight:400;
+    
 }
 .abouts{
     margin-top:35px;
@@ -24,13 +27,13 @@
     color:black;
     text-decoration: none;
     font-size:18px;
-    display: flex;
+    
 }
 .arrow{
   font-size: 40px;
   transition: transform 0.3s ease-in-out;
   position: absolute; 
-  right: 35px; 
+  right: 10px; 
   transform: translateX(0); /* Initial position */
   color:blue;
 }
@@ -41,44 +44,72 @@
     color:blue;
     transform: translateX(10px); /* Adjust the translation value as needed */
 }
+.video-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%; /* Add this line to make sure the container covers the full height */
+}
 
-@media (max-width: 950px) {
+.video-background > video {
+  width: 100%;
+  height: 100%; /* Set the video height to 100% to maintain its aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
     /* Apply these styles when the screen width is 768px or less (medium screens) */
     .text-holder {
       padding: 10px 50px 10px 10px; /* Adjust the padding values as needed */
     }
     .title-holder > h1{
-        font-size: 60px;
-    }
+      font-size: 50px;
+      padding-top:150px;
+      line-height: 3rem;
   }
-  /* Header.css */
-.header-container {
-    position: relative;
-  }
-  
-  .video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  
-  .bg-video {
-    width: 100%;
-    height: 88%;
-  }
-  @media(max-width:576px){
-    .bg-video {
-        width: 100%;
-        height: 90%;
-      }
+  .video-background > video {
+    height: 70%; /* Set the video height to 100% to maintain its aspect ratio */
   }
 
-  @media(min-width: 400px) and (max-width: 992px){
-    .bg-video {
-        width: 100%;
-        height: 70%;
-      }
+    
   }
+  
+ /*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+  .title-holder > h1{
+    font-size: 50px;
+    padding-top:50px;
+    line-height: 3rem;
+}
+.video-background > video {
+  height: 50%; /* Set the video height to 100% to maintain its aspect ratio */
+}
+.text-holder{
+  padding:25px 150px 10px 0px;
+  
+}
+}
+
+/*Media Quries for mobiles*/
+
+@media(max-width:576px){
+  .title-holder > h1{
+    font-size: 40px;
+    padding-top:40px;
+    line-height: 3rem;
+}
+.video-background > video {
+  height: 65%; /* Set the video height to 100% to maintain its aspect ratio */
+}
+.text-holder{
+  padding:10px 10px 10px 10px;
+  
+}
+.abouts{
+  width:90%;
+}
+}

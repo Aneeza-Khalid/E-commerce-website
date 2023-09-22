@@ -1,7 +1,7 @@
 import React from 'react';
 import  {Col, Row, Container } from 'react-bootstrap';
-
 import './OurTeam.css';
+import { BsInstagram, BsTwitter } from "react-icons/bs";
 
 export default function OurTeam(){
     return(
@@ -23,10 +23,10 @@ export default function OurTeam(){
                                 <p>Pilot</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex  mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>
@@ -44,10 +44,10 @@ export default function OurTeam(){
                                 <p>Photographer</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>
@@ -66,10 +66,10 @@ export default function OurTeam(){
                                 <p>Pilot</p>
                             </Col>
                             <Col xs={4}>
-                                <div className='d-flex mt-4'>
-                                <a href='https://www.instagram.com/' className='me-2'> Insta
+                                <div className='d-flex mt-3 ms-4'>
+                                <a href='https://www.instagram.com/' className='me-3 insta-twit'> <BsInstagram/>
                                 </a>
-                                <a href='https://twitter.com/'> Twit
+                                <a href='https://twitter.com/' className='insta-twit'> <BsTwitter/>
                                 </a>
                                 </div>
                             </Col>

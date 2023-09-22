@@ -1,10 +1,12 @@
 import  {Col, Row, Container } from 'react-bootstrap';
 import './GalleryHeader.css';
+import Navigation from '../Nav';
 
 export default function GalleryHeader(){
     return(
         <>
         <Container fluid className='team-bg-image'>
+            <Navigation/>
             <Container>
         <Row >
             <Col lg={6} md={8} xs={12} className =' about-us-title ps-lg-5 ' >

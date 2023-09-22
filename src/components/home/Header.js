@@ -4,42 +4,44 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Header.css';
-import { Link } from 'react-router-dom';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import {useEffect} from 'react';
 
 export default function Header() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds for this section
+    });
+  }, []);
   return (
-    <div className='Heder-container'>
-       <div className="video-background">
-  {/* eslint-disable-next-line */}
-  <iframe
-    src="https://www.youtube.com/shorts/sFdoPfj3TAM?feature=share" frameBorder="0"
-    allowFullScreen
-    className="bg-video"
-  ></iframe>
-</div>
-      <Container fluid className='p-0'>
+    <Container fluid className=''>
+      <div className='video-background'>
+        
+        <video autoPlay muted>
+          <source
+            src="https://assets.website-files.com/6450b31696e25f8aa6cdd7b0/646f088ca1a027c73d73b145_video background -transcode.mp4"
+            frameBorder="0"
+            allowFullScreen
+            type='video/mp4'
+            className="bg-video"
+          />
+        </video>
+      </div>
       <Navigation />
-      <Container >
+      <Container>
         <Row>
-          <Col xl={6} md={8} xs={12} className ='order-md-1 title-holder'>
-          <h1>
-          A New Era Of Drones
-          </h1>
+          <Col xl={6} md={8} xs={12} className='title-holder' data-aos="fade-up">
+            <h1>A New Era Of Drones</h1>
           </Col>
-          <Col xl={6} lg={6} md={8} xs={12} className ='order-md-2 text-holder'>
-            <h5>
-            Even more speed. Even more stability. Everything youmight need – in a brand new Drone.
-            </h5>
-            <div className='abouts'>
-           <Link className='headerUs' to="/internal-route">Read More About Us <span className='arrow'>&#8594;</span></Link>
+          <Col lg={6} md={8} xs={12} className='text-holder' data-aos="fade-up">
+            <h5>Even more speed. Even more stability. Everything you might need – in a brand new Drone.</h5>
+            <div className='abouts' data-aos="fade-up">
+              <a href='/AboutUs' className='headerUs text-capitalize ps-3'>Read More About Us <span className='arrow'>&#8594;</span></a>
             </div>
           </Col>
         </Row>
-
-        </Container>
       </Container>
-      
-    </div>
-  )
+    </Container>
+  );
 }

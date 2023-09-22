@@ -1,0 +1,68 @@
+.bg-color{
+    background-color: blue;
+}
+/* Style for the forward and previous buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  background-color: blue; /* Background color */
+  border-radius: 50%; /* Make them circular */
+  opacity: 0.8; /* Opacity for a semi-transparent look */
+  position: absolute;
+  top:180px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.quantity{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-style: none;
+    border-bottom-color: #fff;
+    border-left-style: none;
+    border-right-style: none;
+    border-radius: 0;
+    height: 38px;
+    width: 40px; 
+}
+.quantity:focus{
+   outline:none;
+}
+.filled-star, .empty-star{
+    color:white;
+}
+.shop-detail-page >h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.shop-detail-page >p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.1em;
+}
+/*Media Quries for i pad*/
+@media(min-width: 577px) and (max-width: 992px) {
+    .shop-btn{
+        margin-left: 0px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+@media(max-width:576px){
+    .shop-btn{
+        margin-left: 0px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+.contact-detail >h6{
+    color: #162cca;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.contact-detail >h1{
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+.contact-detail >p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.detail{
+    color: #717171;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: color .3s;
+}
+.detail:hover{
+    color:#162cca;
+}
+.detail-icon{
+    color:#0e0e0e;
+}
+.detail-icon:hover{
+    color:#162cca;
+}
+
+.input-area{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(113, 113, 113, .3);
+    transition: all .2s;
+    font-size: 14px;
+    color: #333;
+}
+.input-area:focus{
+    height: 38px;
+    color: #333;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.42857;
+    outline: none;
+    border-bottom: 1px solid #162cca;
+}
+.text-area{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(113, 113, 113, .3);
+    transition: all .2s;
+    padding-bottom: 120px;
+    font-size: 14px;
+}
+.text-area:focus{
+    color: #333;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.42857;
+    outline: none;
+    border-bottom: 1px solid #162cca;
+}
+.submit-btn{
+    background-color: #717171;
+    color: #162cca;
+    border-bottom: 1px solid #162cca;
+    font-size: 18px;
+    font-weight: 600;
+}
+.success-message{
+    font-size: 16px;
+    font-weight: 400;
+    color: #162cca;
+    padding-top: 150px;
+}
+

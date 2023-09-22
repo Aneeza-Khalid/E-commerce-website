@@ -29,9 +29,8 @@ export default function PricingCard(){
                         </h6>
                         <hr />
                     </div>
-                    <a href='abc' className='mt-lg-4 mt-md-5  link-tag d-flex align-item-center justify-content-center'> <Button className='pricing-btn protfolio-btn'> Buy Now</Button> </a>
+                    <a href='/ContactUs' className='mt-lg-4 mt-md-5  link-tag d-flex align-item-center justify-content-center'> <Button className='pricing-btn protfolio-btn'> Buy Now</Button> </a>
                 </Card>
-
             </Col>
             <Col lg={4} md={6} xs={12} className='mt-4'>
             <Card className='pt-4 pb-3 ps-4 pe-4 '>
@@ -57,11 +56,10 @@ export default function PricingCard(){
                         </h6>
                         <hr />
                     </div>
-                    <a href='abc' className='mt-4 link-tag d-flex align-item-center justify-content-center'> <Button className='pricing-btn protfolio-btn'> Buy Now</Button> </a>
+                    <a href='/ContactUs' className='mt-4 link-tag d-flex align-item-center justify-content-center'> <Button className='pricing-btn protfolio-btn'> Buy Now</Button> </a>
                     
                 </Card>
             </Col>
-            
             <Col lg={{span: '4', offset:'0'}} md={{span: '6', offset:'2'}} xs={{span: '12', offset:'0'}} className='mt-4'>
             <Card className='pt-4 pb-3 ps-4 pe-4 mt-lg-0 mt-md-4'>
                     <div className='pricing-plan ps-1 pe-1'>
@@ -83,7 +81,7 @@ export default function PricingCard(){
                         </h6>
                         <hr />
                     </div>
-                    <a href='abc' className='mt-4 link-tag d-flex align-item-center justify-content-center'> <Button className='pricing-btn protfolio-btn'> Buy Now</Button> </a>
+                    <a href='/ContactUs' className='mt-4 link-tag d-flex align-item-center justify-content-center'> <Button className='pricing-btn protfolio-btn'> Buy Now</Button> </a>
                 </Card>
             </Col>
 
